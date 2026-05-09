@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    padding:20px 0;
+    text-align:center;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:white;
+    color:#2563eb;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#e5e7eb;
+}
+
+section{
+    padding:50px 0;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#1f2937;
+}
+
+.about p,
+.portfolio p{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+.skills ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    list-style:none;
+}
+
+.skills li{
+    background:#1f2937;
+    color:white;
+    margin:10px;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.project-card{
+    background:white;
+    padding:20px;
+    margin:20px auto;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    max-width:800px;
+}
+
+footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
